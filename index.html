@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+  <body> 
+     <div class="container">
+      
+           <h1>LEVEL 100 REGISTRATION FORMS</h1>
+           <h1>NATIONAL UNION OF PRESBYTERIAN STUDENTS - GHANA</h1>
+           <h2>(AAMUSTED LOCAL)</h2> 
+      
+      <hr>
+         <div class="register-form"> 
+            <form action="https://formspree.io/f/xnqeqvwl" method="post">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name" required><br>
+
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name" required><br>
+
+                <label for="other_name">Other Name:</label>
+                <input type="text" id="other_name" name="other_name"><br>
+
+
+                <label for="gender">Gender:</label>
+                <select name="gender" id="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                </select><br>
+
+                <label for="marital_status">Marital Status:</label>
+                <select name="marital_status" id="marital_status" required>
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+                <option value="divorced">Divorced</option>
+                <option value="widowed">Widowed</option>
+                </select><br>
+
+                <label for="contact">Contact:</label>
+                <input type="tel" id="contact" name="contact" required><br>
+
+                <label for="emergency_contacts">Emergency Contacts:</label><br>
+                <input type="tel" id="emergency_contact_1" name="emergency_contacts[]" required><br>
+
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required><br> 
+                <label for="Home_Town">Home Town:</label>
+                <input type="text" id="Home_Town" name="Home_Town" required><br>
+                <label for="region">Region:</label>
+                <input type="text" list="regions" id="region" name="region" required>
+                <datalist id="regions">
+                <option value="Greater Accra">
+                <option value="Ashanti">
+                <option value="Central">
+                <option value="Eastern">
+                <option value="Western">
+                <option value="Volta">
+                <option value="Northern">
+                <option value="Upper East">
+                <option value="Upper West">
+                <option value="Brong-Ahafo">
+                <option value="Western North">
+                <option value="Oti">
+                <option value="Ahafo">
+                <option value="Bono East">
+                <option value="North East">
+                <option value="Savanna">
+                </datalist><br>
+
+             <label for="Hall_Of_Affiliation">Hall Of Affiliation:</label>
+             <select name="Halls">
+                <option>Opoku Ware Hall</option>
+                <option>Atwima Hall</option>
+                <option>Autonomy Hall</option>
+             </select><br>
+
+                <label for="program">Program of Studies:</label>
+                <input type="text" list="programs" id="program" name="program" required>
+                <datalist id="programs">
+                  <option value="B. A. Arabic Education">
+                     <option value="B. A. English Education">
+                     <option value="B. A. French Education">
+                     <option value="B. A. French with English Education">
+                     <option value="B. A. Social Studies with Economics Education">
+                     <option value="B.Ed. Early Grade (Early Childhood)">
+                     <option value="B. Sc. Fashion Design and Textiles Education">
+                     <option value="B. Sc. Catering and Hospitality Education">
+                     <option value="B. B. A. Secretarial Education">
+                     <option value="B. Sc. Management Education">
+                     <option value="B. Sc. Marketing">
+                     <option value="B. B. A. Executive Office Administration">
+                     <option value="B. Sc. Marketing and Entrepreneurship">
+                     <option value="B.B.A. Human Resource Management">
+                     <option value="B. Sc. Economics with Social Studies Education">
+                     <option value="B. Sc. Economics Education">
+                     <option value="B. Sc. Accounting Education">
+                     <option value="B. Sc. Admin Accounting">
+                     <option value="B. Sc. Procurement and Supply Chain Management">
+                     <option value="B. Sc. Banking and Finance">
+                     <option value="B. Sc. Business Information Systems">
+                     <option value="B. Sc. Mathematics Education">
+                     <option value="B. Sc. Information Technology Education">
+                     <option value="B.Sc. Information Technology">
+                     <option value="B.Sc. Cybersecurity and Digital Forensics">
+                     <option value="B. Sc. Automotive Engineering Technology Education">
+                     <option value="B. Sc. Mechanical Engineering Technology Education">
+                     <option value="B.Sc. Construction Technology and Management with Education">
+                     <option value="B.Sc. Welding and Fabrication Engineering Technology Education">
+                     <option value="B.Sc. Plumbing, Gas and Sanitary Technology">
+                     <option value="B.Sc Civil Engineering">
+                     <option value="B.Sc. Wood Technology with Education">
+                     <option value="B. Sc. Electrical and Electronics Engineering Technology Education">
+                     <option value="B.Sc. Mechanical Engineering Technology">
+                     <option value="B.Sc. Electrical and Electronics Engineering">
+                     <option value="2-year Post-Diploma in Construction Technology">
+                     <option value="2-year Post-Diploma in Automotive Engineering Technology">
+                     <option value="2-year Post-Diploma in Electrical and Electronics Engineering Technology">
+                     <option value="2-year Diploma in Wood Technology">
+                     <option value="2-year Diploma Business Admin Accounting">
+                     <option value="Diploma in Human Resource Management">
+                     <option value="Diploma in Office Management and Computer Applications">
+                     <option value="2-year Diploma Business Admin Management">
+                   </datalist> <hr>
+                <div class="wings-container">
+                    <h2>Wings of Choice</h2>
+                
+                    <label for="wings">Select your Wings of Choice:</label><br>
+                    <hr>
+                    <label for="Organizing">Organizing</label><br>
+                    <input type="checkbox" id=" Organizing" name="wings[]" value="Organizing">
+                    
+                    <label for="prayer-wing">Prayer Wing</label><br>
+                    <input type="checkbox" id="prayer-wing" name="wings[]" value="Prayer Wing">
+
+                    <label for="Bible Studies Wing">Bible Studies Wing</label><br> 
+                    <input type="checkbox" id="Bible Studies Wing" name="wings[]" value="Bible Studies Wing">
+                    
+                    <label for="coordinating-wing">Coordinating Wing</label><br>
+                    <input type="checkbox" id="coordinating-wing" name="wings[]" value="Coordinating Wing">
+                  
+                    <label for="Ushering">Ushering</label><br>
+                    <input type="checkbox" id="Ushering" name="wings[]" value="Ushering">
+                    
+                    <label for="Evangelism-wing">Evangelism wing</label><br>
+                    <input type="checkbox" id="Evangelism wing" name="wings[]" value="Evangelism wing">
+                    
+                    <label for="Inspirers">Inspirers</label><br>
+                    <input type="checkbox" id="Inspirers" name="wings[]" value="Inspirers">
+                    
+                    <label for="Choir">Choir</label><br> bible studies wing
+                    <input type="checkbox" id="Choir" name="wings[]" value="Choir">
+                    
+                    <label for="Ladies-wing">Ladies wing</label><br>
+                    <input type="checkbox" id="Ladies wing" name="wings[]" value="Ladies wing">
+                    
+                    <label for="Vessels-of-inspiration">Vessels of inspiration</label><br>
+                    <input type="checkbox" id="Vessels of inspiration" name="wings[]" value="Vessels of inspiration"> 
+                </div> <hr>
+            <button type="submit">Send</button>
+         </form>
+     </div>
+   </div> <hr>
+   <div class="omy">
+      <label for="omy">
+         @OMY <br>
+         
+      </label> <br>
+
+   </div>
+  </body>
+</html>
